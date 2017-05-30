@@ -1,9 +1,11 @@
-### 参考1
+### 参考——菜鸟教程
 
 >https://www.tutorialspoint.com/assembly_programming/
 
-### 参考2
-http://vdisk.weibo.com/s/EH0bs69z8Dk7
+### 参考——中/英文文档
+>http://vdisk.weibo.com/s/EH0bs69z8Dk7
+
+>http://www.nasm.us/doc/nasmdoc0.html
 
 ### 编译&运行
 1. nasm -f elf hello.asm -o obj/hello.o

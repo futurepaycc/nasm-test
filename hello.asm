@@ -1,7 +1,8 @@
 section .text
-	global _start
+	global main
 
-_start:
+main:
+        mov ebp, esp ;for correct debugging
 	mov edx,len
 	mov ecx,msg
 	mov ebx,1
@@ -12,6 +13,6 @@ _start:
 	int 0x80
 
 section .data
-	msg db 'Hello, world!,test', 0xa,0xd;这里的0xa应该是行结束符号,逗号是拼接的意思
+	msg db 'Hello, world!,test', 0xa,0xd ;这里的0xa应该是行结束符号,逗号是拼接的意思
 	len equ $ - msg
 
